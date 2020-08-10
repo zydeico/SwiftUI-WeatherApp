@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var description = ""
     @State var temperature = 0
     @State var imgData = Data()
-    @State var weatherDescription = "Clear"
+    @State var weatherDescription = "Cloudy"
     
     let bgColors = [
         "Clear":LinearGradient(gradient: Gradient(colors: [Color( #colorLiteral(red: 0.6544341662, green: 0.9271220419, blue: 0.9764705896, alpha: 1)), Color( #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1))]), startPoint: .top, endPoint: .bottom),
@@ -133,9 +133,25 @@ struct ContentView: View {
     }
     
     var body: some View {
-        ZStack {
-            Text("Hello, World!")
-            bgColors[weatherDescription]
+        VStack {
+            ZStack {
+                bgColors[weatherDescription]
+                if getTemp {
+                    Text("\(city)")
+                        .foregroundColor(Color.white)
+                        .font(.system(size: 25))
+                        .padding(.bottom, 60)
+                        .frame(maxWidth: .infinity)
+                    Image(systemName: icon[weatherDescription]!)
+                        .foregroundColor(Color.white)
+                    Text("\(self.temperature)")
+                        .foregroundColor(Color.white)
+                        .font(.system(size: 90))
+                }
+            }.edgesIgnoringSafeArea(.all)
+                .onAppear() {
+                    self.getWeatherData()
+            }
         }
     }
 }
@@ -143,5 +159,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 11 Pro")
     }
 }
