@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6576E77D24E0EEAC007EE701 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576E77C24E0EEAC007EE701 /* ColorData.swift */; };
 		6593CBAD24E0DD8200DAD753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBAC24E0DD8200DAD753 /* AppDelegate.swift */; };
 		6593CBAF24E0DD8200DAD753 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBAE24E0DD8200DAD753 /* SceneDelegate.swift */; };
 		6593CBB224E0DD8200DAD753 /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBB024E0DD8200DAD753 /* Weather.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6576E77C24E0EEAC007EE701 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		6593CBA924E0DD8200DAD753 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6593CBAC24E0DD8200DAD753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6593CBAE24E0DD8200DAD753 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6576E77B24E0EE9E007EE701 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6576E77C24E0EEAC007EE701 /* ColorData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		6593CBA024E0DD8200DAD753 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		6593CBAB24E0DD8200DAD753 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				6576E77B24E0EE9E007EE701 /* Data */,
 				6593CBC424E0DF1400DAD753 /* ViewController */,
 				6593CBC324E0DF0A00DAD753 /* Model */,
 				6593CBAC24E0DD8200DAD753 /* AppDelegate.swift */,
@@ -182,6 +193,7 @@
 				6593CBAD24E0DD8200DAD753 /* AppDelegate.swift in Sources */,
 				6593CBB424E0DD8200DAD753 /* ContentView.swift in Sources */,
 				6593CBCA24E0E05100DAD753 /* CurrentModel.swift in Sources */,
+				6576E77D24E0EEAC007EE701 /* ColorData.swift in Sources */,
 				6593CBC824E0DF6B00DAD753 /* LocationModel.swift in Sources */,
 				6593CBCC24E0E10A00DAD753 /* Weather.swift in Sources */,
 				6593CBAF24E0DD8200DAD753 /* SceneDelegate.swift in Sources */,

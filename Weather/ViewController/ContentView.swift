@@ -16,6 +16,8 @@ struct ContentView: View {
     @State var imgData = Data()
     @State var weatherDescription = "Clear"
     
+    var getTemp = false
+    
     func getWeatherData() {
         
         let jsonURLString = "http://api.weatherstack.com/current?access_key=e2e67e54f572ca441b450ea1c0fd30ee&query=New%20York"
