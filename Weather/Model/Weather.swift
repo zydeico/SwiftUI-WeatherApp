@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Weather: Decodable {
+struct WeatherData: Decodable {
     let request: Request?
     let location: Location?
     let current: Current?
