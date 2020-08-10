@@ -17,7 +17,7 @@
 		6593CBC624E0DF3400DAD753 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBC524E0DF3400DAD753 /* RequestModel.swift */; };
 		6593CBC824E0DF6B00DAD753 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBC724E0DF6B00DAD753 /* LocationModel.swift */; };
 		6593CBCA24E0E05100DAD753 /* CurrentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBC924E0E05100DAD753 /* CurrentModel.swift */; };
-		6593CBCC24E0E10A00DAD753 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBCB24E0E10A00DAD753 /* WeatherModel.swift */; };
+		6593CBCC24E0E10A00DAD753 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6593CBCB24E0E10A00DAD753 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		6593CBC524E0DF3400DAD753 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		6593CBC724E0DF6B00DAD753 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		6593CBC924E0E05100DAD753 /* CurrentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentModel.swift; sourceTree = "<group>"; };
-		6593CBCB24E0E10A00DAD753 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		6593CBCB24E0E10A00DAD753 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 				6593CBC524E0DF3400DAD753 /* RequestModel.swift */,
 				6593CBC724E0DF6B00DAD753 /* LocationModel.swift */,
 				6593CBC924E0E05100DAD753 /* CurrentModel.swift */,
-				6593CBCB24E0E10A00DAD753 /* WeatherModel.swift */,
+				6593CBCB24E0E10A00DAD753 /* Weather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				6593CBB424E0DD8200DAD753 /* ContentView.swift in Sources */,
 				6593CBCA24E0E05100DAD753 /* CurrentModel.swift in Sources */,
 				6593CBC824E0DF6B00DAD753 /* LocationModel.swift in Sources */,
-				6593CBCC24E0E10A00DAD753 /* WeatherModel.swift in Sources */,
+				6593CBCC24E0E10A00DAD753 /* Weather.swift in Sources */,
 				6593CBAF24E0DD8200DAD753 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

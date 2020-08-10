@@ -1,5 +1,5 @@
 //
-//  WeatherModel.swift
+//  Weather.swift
 //  Weather
 //
 //  Created by Daniel Vazquez on 09/08/20.
@@ -8,12 +8,8 @@
 
 import Foundation
 
-struct WeatherModel: Decodable {
+struct Weather: Decodable {
     let request: Request?
     let location: Location?
     let current: Current?
-    
-    func getWeatherData() {
-        // Do something
-    }
 }
